@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-
 void main()
 {
     char text[100];
@@ -13,13 +12,13 @@ void main()
     gets(text);
     n = strlen(text);
     text[0] = toupper(text[0]);
-    for( i = 1 ; i < n; i++){
-        if(text[i-1] == ' '){
+    for (i = 1 ; i < n; i++) {
+        if (text[i-1] == ' ') {
             text[i] = toupper(text[i]);
         
         }
         else 
-            text[i] =tolower(text[i]);
+            text[i] = tolower(text[i]);
     }
     puts(text);
     getch();
