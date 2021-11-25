@@ -23,7 +23,4 @@ void main()
     }
     puts(text);
     getch();
-    
-
-    return 0;
 }
