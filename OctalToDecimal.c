@@ -8,7 +8,7 @@ void main()
     int i, n, dec = 0;
     char bin[10];
     clrscr();
-    printf("BinaryToDecimal.cppEnter Decimal Number = ");
+    printf("Enter Decimal Number = ");
     gets(bin);
     n = strlen(bin);
     n = n - 1;
