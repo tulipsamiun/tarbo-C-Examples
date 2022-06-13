@@ -6,7 +6,7 @@ void main()
 {
     int count, tag;
     char c, text[20];
-    printf("Hello World");
+
     printf("%s","Enter a Line Of Text Bellow");
     for(count = 0; (text[count] = getchar()) != '\n'; ++count)
         tag = count;
